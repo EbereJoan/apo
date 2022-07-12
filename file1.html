@@ -1,0 +1,81 @@
+const jobsArray = [
+  {
+    slug: 'junior-programmer-frontend-developer',
+    link: null,
+    isInternal: true,
+    isPaid: true,
+    isRemote: false,
+    poster: { connect: { email: '' } },
+    organization: { connect: { email: '' } },
+    organizationName: 'Jobrole Consulting Limited',
+    category: ProjectType.UI/UX,
+    title: 'UX/UI Frontend Developer',
+    type: JobEmploymentType.CONTRACT,
+    description: `
+    Our Company creates some of the best cutting-edge software products, and we welcome you to be a part of our team. `
+    <h2>Overview</h2>
+
+   <ul>
+
+ <h3>Responsibilities Include And Are Not Limited To:</h3>
+
+    <li>Plan and implement new application user interface designs for both web and mobile solutions.</li>
+    <li>Use a variety of programming languages in order to create user-friendly web pages.</li>
+    <li>Optimize existing user interface designs.</li>
+    <li>Work in a multidisciplinary team with other professionals such as back-end developers and web designers.</li>
+    <li>Create intuitive and user-friendly experience interfaces for all applications.
+    </li>
+    <li>Combine creativity with an awareness of the design elements.</li>
+    <li>Create prototypes for new product ideas.
+    </li>
+    <li>Provide high-quality graphics and visual elements.</li>
+    <li>Always stay consistent with our brand guidelines.
+    </li>
+    <li>Test new ideas before implementing them.
+    </li>
+    <li>Illustrate design ideas using storyboards, process flows, and sitemaps.
+    </li>
+    <li>Identify and troubleshoot UX problems (e.g. responsiveness).
+    </li>
+    <li>Report directly to the head of the software development department.
+    </li>
+   </ul>
+ `,
+    requirements: `
+    
+   <h3>Basic Qualifications</h3>
+
+   <li>· Must have completed NYSC,</li>
+   <li>HND, B.SC Degree.</li>
+
+   <h3>Additional Qualifications</h3>
+
+   <li>Good knowledge of JavaScript Libraries. React and Vue would serve as added advantages.</li>
+   <li>Good knowledge of Bootstrap4, Blade and other relevant frontend libraries and or frameworks.</li>
+   <li>Design portfolio evidence.</li>
+   <li>Proven work experience as a UI/UX Designer or Frontend Developer.</li>
+   <li>Up-to-date knowledge of professional and industry-standard design software such as Figma, Sketch, Invision, Adobe Illustrator and Photoshop.</li>
+   <li>Team spirit; strong communication skills to collaborate with various stakeholders.</li>
+   <li>Good time-management skills.</li>
+   <li>Excellent knowledge of browser troubleshooting and debugging practices and techniques.</li>
+  
+    `,
+    location: {
+      create: {
+        address: 'Jobrole Consulting Limited,',
+        postCode: '',
+        city: 'Lagos',
+        country: {
+          connect: { iso2: 'NG' },
+        },
+      },
+    },
+    salaryMin: #190,000,
+    salaryMax: #200,000,
+    experienceLevel: JobExperienceLevel.ENTRY_LEVEL,
+    <!-- screeningQuestions: ['Are you willing to relocate?'], -->
+    documents: ['CV'],
+    isFeatured: true,
+    <!-- finished: new Date(''), -->
+  },
+];

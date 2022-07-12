@@ -1,0 +1,80 @@
+const jobsArray = [
+  {
+    slug: 'research-assistant',
+    link: null,
+    isInternal: true,
+    isPaid: true,
+    isRemote: false,
+    poster: { connect: { email: '' } },
+    organization: { connect: { email: '' } },
+    organizationName: 'Signatures group corporation',
+    category: ProjectType.RESEARCH ASSISTANT,
+    title: 'Research Assistant',
+    type: 'Full-time',
+    description: `
+    We are seeking a passionate, detail-oriented Research Assistant to aid our project by preparing interviews and summarizing results. 
+    You will also work with undergraduate students on the team who can help bring your expertise into their papers as they complete them for publication in top academic journals.`
+    
+    
+    <h2>Overview</h2>
+
+    <ul>
+
+ <h3>Responsibilities:</h3>
+
+ <li>Maintain quality standards to preserve the integrity of data and findings
+</li>
+ <li>Schedule and conduct interviews
+</li>
+ <li>Select a place to conduct interviews and obtain permission from all participants
+</li>
+ <li>Analyze data using various statistical methods
+</li>
+ <li>Write reports to summarize data and the implications of the results
+</li>
+
+   
+   </ul>
+ 
+     `
+        requirements:
+    
+   <!-- <h3>Basic Qualifications</h3> -->
+
+
+   <h3>Requirements and skills</h3>
+
+   <li>Proven work experience as a Research Assistant or similar role
+</li>
+   <li>Excellent administrative skills
+</li>
+   <li>Knowledge of research methods
+</li>
+   <li>Ability to work under pressure
+</li>
+   <li>Excellent time management skills
+</li>
+   <li>A degree in the field related to the study is preferred
+</li>
+
+
+    `,
+    location: {
+      create: {
+        address: 'Signatures group corporation, Lagos,',
+        postCode: '100001',
+        city: 'Lagos',
+        country: {
+          connect: { iso2: 'NG' },
+        },
+      },
+    },
+    salaryMin: #100,000,
+    salaryMax: #150,000,
+    experienceLevel: 
+    screeningQuestions: ['Can you reliably commute or planning to relocate before starting work?'],
+    documents: ['CV'],
+    isFeatured: true,
+    finished: new Date('31-07-2022'), 
+  },
+];

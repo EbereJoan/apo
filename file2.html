@@ -1,0 +1,83 @@
+const jobsArray = [
+  {
+    slug: 'creative-copywriter-marketing-writer',
+    link: null,
+    isInternal: true,
+    isPaid: true,
+    isRemote: false,
+    poster: { connect: { email: '' } },
+    organization: { connect: { email: '' } },
+    organizationName: 'The Tonic Technologies LTD',
+    category: ProjectType.COPYWRITER/MARKETING WRITER,
+    title: 'Creative Copywriter / Marketing Writer',
+    type: JobEmploymentType.CONTRACT,
+    description: `
+    We are looking for creative copywriters, or marketing writers, who will be responsible for producing engaging and creative content for different media channels such as social media, websites, print ads, and catalogs.`
+    
+    <h2>Overview</h2>
+
+   <ul>
+
+ <h3>Responsibilities Include And Are Not Limited To:</h3>
+
+    <li>Writing clear and error-free content that reflects the company’s voice.</li>
+    <li>Writing content copies for social media, email, and contents that re-engage customers.
+    </li>
+    <li>Proposing copy concepts in an engaging way for users.
+    </li>
+    <li>Interpreting creative direction and technical information and turning them into persuasive copy concepts.
+    </li>
+    <li>Collaborating with PR and marketing team to brainstorm and develop a variety of marketing materials.
+    </li>
+    <li>Working with team members to edit and modify copy to meet their content expectations.
+    </li>
+   
+   </ul>
+ `
+    requirements: `
+    
+   <h3>Basic Qualifications</h3>
+
+   <li>Must have 2YRS+ experience in copywriting or related fields.
+</li>
+
+   <h3>Additional Qualifications</h3>
+
+   <li>Proven record of excellent copywriting demonstration.
+</li>
+   <li>Proven record of excellent copywriting demonstration.
+</li>
+   <li>An impeccable grasp of the English language, including idioms and current trends in slang and expressions.
+</li>
+   <li>Ability to work independently with little or no supervision.
+</li>
+   <li>Strong interpersonal skills and willingness to communicate.
+</li>
+   <li>Good time management skills, including prioritizing, scheduling, and adapting as necessary.
+</li>
+   <li>Proficiency with computers, especially writing programs, such as Google Docs and Microsoft Word.
+</li>
+   <li>Solid knowledge of social media engagement.
+</li>
+
+  
+    `,
+    location: {
+      create: {
+        address: 'Jobrole Consulting Limited,',
+        postCode: '100001',
+        city: 'Lagos',
+        country: {
+          connect: { iso2: 'NG' },
+        },
+      },
+    },
+    salaryMin: #100,000,
+    salaryMax: #300,000,
+    experienceLevel: Copywriting: 2 years (Required)
+    <!-- screeningQuestions: ['Are you willing to relocate?'], -->
+    documents: ['CV'],
+    isFeatured: true,
+    <!-- finished: new Date(''), -->
+  },
+];

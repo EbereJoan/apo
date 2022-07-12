@@ -1,0 +1,71 @@
+const jobsArray = [
+  {
+    slug: 'executive-assistant',
+    link: null,
+    isInternal: true,
+    isPaid: true,
+    isRemote: false,
+    poster: { connect: { email: '' } },
+    organization: { connect: { email: '' } },
+    organizationName: 'Dynamic Consult Group',
+    category: ProjectType.EXECUTIVE ASSISTANT,
+    title: 'Executive Assistant',
+    type: 'Full-time', 'New grad',
+    description: `
+    We are looking for soWe are looking forward to hire an Executive Assistant who will be responsible for managing the schedules and communications of key company executives. 
+    Their duties include prioritizing emails, phone calls, gathering documents to prepare for meetings and coordinating travel arrangements.`
+    
+    <h2>Overview</h2>
+
+   
+
+ <h3>Responsibilities:</h3>
+
+ <ul>
+    <li>Performing minor accounting duties organizing meetings, including scheduling, sending reminders, and organizing catering when necessary.</li>
+    <li>Providing administrative assistance, such as writing and editing e-mails and preparing communications on the executive’s behalf.</li>
+    <li>Answering phone calls in a polite and professional manner.
+    </li>
+    <li>Maintaining comprehensive and accurate records.
+    </li>
+    <li>Welcoming visitors and identifying the purpose of their visit before directing them to the appropriate department.
+    </li>
+
+   
+   </ul>
+  
+        `requirements:`
+        <ul>
+
+   <h3>Basic Qualifications</h3>
+        
+   <li>Minimum of HND in the related field.</li>
+  
+   <h3>Additional Qualifications</h3>
+
+   <li>Time management and ability to meet deadlines.</li>
+   <li>Problem-solving and decision making. </li>
+   <li>Proactivity and self-direction.</li>
+   <li>Verbal and written communication skills.</li>
+  </ul>
+
+    `,
+    location: {
+      create: {
+        address: 'Dynamic Consult Group, Lagos,',
+        postCode: '100001',
+        city: 'Lagos',
+        country: {
+          connect: { iso2: 'NG' },
+        },
+      },
+    },
+    salaryMin: #80,000,
+    salaryMax: 
+    experienceLevel: 
+    <!-- screeningQuestions: ['Are you willing to relocate?'], -->
+    documents: ['CV'],
+    isFeatured: true,
+    <!-- finished: new Date(''),  -->
+  },
+];

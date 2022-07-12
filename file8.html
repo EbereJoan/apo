@@ -1,0 +1,42 @@
+const jobsArray = [
+  {
+    slug: 'graphic-designer',
+    link: null,
+    isInternal: true,
+    isPaid: true,
+    isRemote: true,
+    poster: { connect: { email: '' } },
+    organization: { connect: { email: '' } },
+    organizationName: 'Strange Incorporated',
+    category: ProjectType.GRAPHIC DESIGNER,
+    title: 'Graphic Designer',
+    type: 'Full-time',
+    description: `    
+    <ul>
+      <li>Create briefs and layouts for brand social media handles</li>
+      <li>Review and brainstorm on the best brand strategy for growth</li>
+      <li>Design and create graphics for brand advertisement</li>
+      <li>Tweak and adjust designs for final review from Junior designers</li>
+   </ul>`
+    
+    
+    `,
+    location: {
+      create: {
+        address: 'Strange Incorporated, Lagos,',
+        postCode: '100001',
+        city: 'Lagos',
+        country: {
+          connect: { iso2: 'NG' },
+        },
+      },
+    },
+    salaryMin: #60,000,
+    salaryMax: #80,000,
+    experienceLevel: 
+    screeningQuestions: ['Link to portfolio?'],
+    documents: ['CV'],
+    isFeatured: true,
+    finished: new Date('16-07-2022'), 
+  },
+];
